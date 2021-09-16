@@ -9,16 +9,12 @@
     <div class="page">
     <header>
       <a href="index.html"> <h1>WE BUILD WEBSITES</h1></a>
-      <a href="ThankYouPage.html"><button type="button">GET A FREE ESTIMATE</button></a>
+      <button type="button" onclick="location.href='contactUs.html'">GET A FREE ESTIMATE</button>
     </header>
-
-
-
-
     <div class="firstContent">
       <h1>Best Website Designer in Austin</h1> <br>
       <h2>Call now for your free website design estimate</h2><br><br>
-      <button type="button" name="contactUs">CONTACT US</button>
+      <button type="button" onclick="location.href='contactUs.html'">CONTACT US</button>
     </div>
 
     <div class="secondContent">
@@ -86,15 +82,16 @@
     </div>
     <div class="sixthContent">
       <div class="sixthContentFirst">
-        <form class = "contactForm">
+        <form action="https://formsubmit.co/willhami2@yahoo.com" method="POST" class = "form">
             <h1>GET A FREE ESTIMATE</h1> <br>
-            <input type="text" name="firstName" placeholder="FIRST NAME">
-            <input type="text" name="lastName" placeholder="LAST NAME"> <br>
-            <input type="text" name="phoneNumber" placeholder="PHONE">
-            <input type="text" name="email" placeholder="EMAIL"> <br>
+            <input type="text" name="firstName" placeholder="FIRST NAME" class ="textForm" id = "inp_firstName">
+            <input type="text" name="lastName" placeholder="LAST NAME" class ="textForm" id = "inp_lastName"> <br>
+            <input type="text" name="phoneNumber" placeholder="PHONE" class ="textForm" id = "inp_phoneNumber">
+            <input type="text" name="email" placeholder="EMAIL" class ="textForm" id = "inp_email"> <br>
+            <input type="text" name="business" placeholder="BUSINESS NAME" class ="textFormLong" id = "businessName"> <br><br>
              <input type = "radio" name = "needs" value ="WEBSITE"> WEBSITE<br>
             <input type = "radio" name = "needs" value ="SOCIAL MEDIA"> SOCIAL MEDIA<br>
-            <input type = "radio" name = "needs" value ="BOTH"> BOTH <br>
+            <input type = "radio" name = "needs" value ="BOTH"> BOTH <br><br>
             <button type="button" name="submit">SUBMIT</button>
         </form>
       </div>

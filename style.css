@@ -4,6 +4,7 @@
   font-family: sans-serif;
   font-size: 1em;
   cursor: auto;
+  line-height: 1.1;
 }
 h1 {
   font-size: 2em;
@@ -121,7 +122,7 @@ button {
 
 .fourthContentTop {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
   font-size: 2em;
 }
 
@@ -167,7 +168,7 @@ button {
 .sixthContentFirst h1 {
 }
 
-.contactForm {
+.form {
   width: 100%;
   padding: 30px;
 }
@@ -183,8 +184,12 @@ button {
 
 }
 
-input{
+.textForm{
   width: 200px;
+}
+
+.textFormLong{
+  width: 408px;
 }
 
 .footer{
