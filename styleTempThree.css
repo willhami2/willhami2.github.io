@@ -1,0 +1,286 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  cursor: auto;
+  line-height: 1.1;
+  color: #fff;
+}
+body {
+ font-family: 'Cardo', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+}
+
+
+h1 {
+  font-size: 3em;
+  color: #FDDB27FF;
+}
+
+header h1:hover {
+  color: #00B1D2FF;
+}
+
+h2 {
+  font-size: 2.3em;
+  color: #00B1D2FF;
+}
+p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+button {
+  min-width:160px;
+  padding: 5px 2px;
+  text-align: center;
+  margin-left: 20px 10px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  background: #000;
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  padding: 20px;
+}
+header h1 {
+  cursor: pointer;
+}
+header a {
+
+  text-decoration: none;
+}
+
+
+
+.firstContent {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("whale.jpeg");
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.firstDiv {
+  position: relative;
+  left: 15%;
+  top: 40%;
+  width: 50%;
+}
+
+
+
+.page {
+  width: 100%;
+}
+
+.secondContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 100px;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(255,255,255,.5),rgba(240,240,240,.5)),url("whitebkg.jpg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  width: 100%;
+  border: 5px black;
+  border-style: solid none;
+}
+
+.secondContentBlock{
+  width: 200px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.3em;
+
+  color: black;
+}
+
+.thirdContent {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("notepad.jpeg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-attachment: fixed;
+}
+
+.thirdContentLeft {
+  text-align: center;
+  padding:40px 10px;
+  max-width: 400px;
+}
+.thirdContentRight {
+  margin: 40px;
+
+}
+
+.thirdContentRightPicture {
+  width: 200px;
+}
+
+.fourthContent {
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("camera.jpeg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.fourthContentTop {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.fourthContentBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.fourthContentBottomContent {
+  width: 400px;
+  padding: 20px;
+}
+
+.fifthContent {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(rgba(255,255,255,.5),rgba(240,240,240,.5)),url("whitebkg.jpg");
+  border: 5px black;
+  border-style: solid none;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+
+}
+
+.sixthContent {
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("sand.jpeg");
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-attachment: fixed;
+  padding: 20px 0px;
+}
+
+.form {
+  width: 100%;
+  padding: 30px;
+}
+.sixthContentFirst{
+  min-width: 300px;
+}
+
+input {
+  text-align: center;
+
+}
+
+.sixthContentSecond {
+  padding: 30px;
+  min-width: 300px;
+  text-align: center;
+
+}
+
+.formBottom {
+  display: flex;
+  flex-direction:  column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formInput{
+  width: 275px;
+  height: 25px;
+}
+
+.footer{
+  width: 100%;
+  background-color: rgba(0,0,0,1);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.pageThankYou {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(180,180,180,1);
+}
+
+.oneThankYou{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wordBox{
+  max-width: 400px;
+  text-align: center;
+}
+
+@media only screen and (max-device-width:700px) and (min-device-height:300px) {
+  .sixthContentSecond {
+    min-width: calc(100% - 60px);
+  }
+  .firstContent {
+    font-size: 2em;
+  }
+  header {
+    font-size: 1.5em;
+  }
+  button {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  .thirdContentRight {
+display: none;
+  }
+}
